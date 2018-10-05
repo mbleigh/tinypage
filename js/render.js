@@ -53,7 +53,7 @@ function UpdateSite(state) {
   return html`
   <h2>editing ${state.siteName}.firebaseapp.com</h2>
   <form id="update-site" @submit=${e => { e.preventDefault(); updateSite(state, document.getElementById('update-site-input').value); }}>
-    <textarea autofocus id="update-site-input">${state.body}</textarea>
+    <textarea autofocus placeholder="# Markdown Goes Here" id="update-site-input">${state.body}</textarea>
     <p id="warning"><b>Warning:</b> This will actually, for real, overwrite any content you have on this Firebase Hosting site. Be careful!</p>
     ${state.deploying ? html`<button disabled type="submit">Deploying...</button>` : html`</button><button type="submit">Deploy</button>`}
   </form>
