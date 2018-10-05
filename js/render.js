@@ -1,16 +1,6 @@
 import { render, html } from 'lit-html';
-import { update } from './state';
-import Publisher from './publisher';
-import {markdown} from 'markdown';
-
 import {loadSite, updateSite} from './actions';
 
-const DEFAULT_TEXT = '';
-
-async function onSignInOut(e, state) {
-  e.preventDefault();
-  console.log(await state.user ? state.auth.signOut() : state.auth.signIn());
-}
 
 function renderPage(state) {
   if (!state.user) {
@@ -19,14 +9,6 @@ function renderPage(state) {
     return PickSite(state);
   }
   return UpdateSite(state);
-}
-
-function renderForm(state) {
-  if (!state.user) { return ''; }
-
-  return html`
-    Form
-  `;
 }
 
 function SignInForm(state) {
