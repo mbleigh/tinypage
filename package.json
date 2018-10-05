@@ -4,7 +4,7 @@
   "description": "A tiny publishing agent for Firebase Hosting",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "parcel build index.html"
   },
   "author": "",
   "license": "MIT",
@@ -20,6 +20,7 @@
     "> 5%"
   ],
   "devDependencies": {
-    "cssnano": "^4.1.4"
+    "cssnano": "^4.1.4",
+    "parcel-bundler": "^1.10.1"
   }
 }
