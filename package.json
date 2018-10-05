@@ -1,0 +1,25 @@
+{
+  "name": "tiny-page",
+  "version": "0.0.1",
+  "description": "A tiny publishing agent for Firebase Hosting",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "arraybuffer-to-string": "^1.0.2",
+    "gzip-js": "^0.3.2",
+    "js-sha256": "^0.9.0",
+    "lit-html": "^0.11.4",
+    "markdown": "^0.5.0",
+    "pako": "^1.0.6"
+  },
+  "browserslist": [
+    "> 5%"
+  ],
+  "devDependencies": {
+    "cssnano": "^4.1.4"
+  }
+}

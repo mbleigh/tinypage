@@ -1,0 +1,101 @@
+body {
+  color: #455a64;
+  background: #eceff1;
+}
+
+a {
+  color: #37474f;
+}
+
+body, button, input, textarea {
+  font-family: 'Fira Mono', monospace;
+  font-size: 18px;
+}
+
+#about {
+  text-align: left;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+#main {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+#user-bar {
+  font-size: 11px;
+  opacity: 0.8;
+  margin-top: 32px;
+}
+
+#warning {
+  font-size: 12px;
+  text-align: left;
+  line-height: 150%;
+}
+
+#success {
+  background: #43a047;
+  color: white;
+  text-align: left;
+  padding: 16px;
+  font-size: 14px;
+}
+
+#success a {
+  color: white;
+}
+
+#error {
+  background: #e53935;
+  color: white;
+  text-align: left;
+  padding: 16px;
+  font-size: 14px;
+}
+
+#error a {
+  color: white;
+}
+
+button {
+  background: black;
+  border: 0;
+  color: white;
+  font-size: 18px;
+  padding: 12px 18px;
+  margin-top: 18px;
+}
+
+h1 a {
+  text-decoration: none;
+}
+
+h2 {
+  background: #78909c;
+  color: white;
+  padding: 16px;
+  margin-bottom: 0;
+  font-size: 18px;
+}
+
+form {
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  border: 0;
+  padding: 4px 8px;
+}
+
+textarea {
+  border: 0;
+  font-size: 16px;
+  width: 100%;
+  height: 400px;
+  box-sizing: border-box;
+  padding: 8px;
+}
